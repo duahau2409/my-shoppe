@@ -1,0 +1,159 @@
+/* PC */
+@media (min-width: 64em)  {
+    .header__search-icon {
+        display: none;
+    }
+    .footer__mobie {
+        display: none;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .home-filter__page {
+        display: none;
+    }
+    .gird__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 25%;
+    }
+    .gird__column-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+    .gird__column-2-4:last-child {
+        display: none;
+    }
+    .header__search-selection {
+        display: none;
+    }
+    .category-item::before {
+        display: none;
+    }
+    .category-list {
+        display: flex;
+    }
+    .header__search-icon {
+        display: none;
+    }
+    .footer__mobie {
+        display: none;
+    }
+ 
+}
+
+/* Mobie */
+
+@media (max-width: 46.25em) {
+    .gird__column-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+    }
+    .category-list {
+        display: flex;
+    }
+    /* header */
+    .header__navbar {
+        display: none;
+    }
+    .header__search-selection {
+        display: none;
+    }
+    .header__search {
+        display: none;
+    }
+
+    .header__search-btn-icon {
+        display: none;
+    }
+
+    .header__search-btn {
+        display: none;
+    }
+
+    .gird__column-2-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%;
+    }
+    .header-with-search {
+        justify-content: space-between;
+    }
+    .header__search-icon {
+        font-size: 2.2rem;
+        color: white;
+    }
+    .header__cart {
+        padding-left: 72px;
+    }
+
+    /* chỗ sắp xếp */
+    .category-item::before {
+        display: none;
+    }
+    
+
+    /* phần số trang */
+
+    .pagination-item:nth-child(4)
+    {
+        display: none;
+    }
+    .pagination-item:nth-child(5)
+    {
+        display: none;
+    }
+    .pagination-item:nth-child(6)
+    {
+        display: none;
+    }
+    .home-product__pagination {
+        padding-right: 36px;
+    }
+
+    /* footer phần mobie */
+
+    .footer__mobie {
+        height: 60px;
+        background-color: white;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .footer__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0 5px;
+        box-shadow:0px -2px rgb(241, 238, 238);;
+    }
+    .footer__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8px;   
+    }
+    .footer__item-box {
+       text-decoration: none;
+    }
+    .footer__item span {
+        font-size: 1.4rem;
+        color: var(--text-color);
+        padding: 0 2px;
+    }
+    .footer__item-icon {
+        font-size: 2.8rem;
+        color: var(--primary-color);
+    }
+    .footer__bottom {
+        margin-bottom: 64px
+    }
+}
