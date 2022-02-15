@@ -1,5 +1,3 @@
-cd my-shoppe
-
 git config core.autocrlf true
 
 git add .
