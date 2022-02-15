@@ -4,4 +4,4 @@ git add .
 
 git commit -m "my-shop"
 
-git push origin main
+git push origin master
