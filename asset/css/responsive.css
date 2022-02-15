@@ -95,7 +95,21 @@
     .category-item::before {
         display: none;
     }
-    
+    .category-list {
+        flex-wrap: wrap;
+    }
+    .home-filter {
+        flex-wrap: wrap;
+    }
+    .select-input {
+        margin-top: 10px;
+    }
+    .home-filter__btn {
+        margin-top: 10px;
+    }
+    .home-filter__page {
+        display: none;
+    }
 
     /* phần số trang */
 
